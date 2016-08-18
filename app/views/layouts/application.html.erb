@@ -27,5 +27,11 @@
   <% end %>
   <%= yield %>
 
+<div class="footer navbar-fixed-bottom">
+  <div class="container">
+    <p>Copyright CloudNine 2016<%if Time.now.year != 2016%>-<%= Time.now.year %> <% end %> </p>
+  </div>
+</div>
+
 </body>
 </html>
