@@ -1,0 +1,39 @@
+// Place all the styles related to the projects controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.project-box{
+  display: inline-block;
+  width: 335px;
+  height: 300px;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid dodgerblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.project-box:hover{
+  background-color: #E4F1FE;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.project-img{
+  border-radius: 5px;
+}
+.title{
+  text-align: center;
+  width: 315px;
+  height: 25px;
+  color: dodgerblue;
+  font-size: x-large;
+  margin-bottom: 13px;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.description{
+  text-align: center;
+  width: 315px;
+  margin-top: 10px;
+}
+

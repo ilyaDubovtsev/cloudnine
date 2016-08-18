@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+
+<div class="container">
+  <h1 class="text-center ffh">Проекты</h1>
+  <ul class="row project-list">
+  <% @projects.each do |project| %>
+     <a href="google.com">
+      <li class="project-box">
+        <div class="title"><%= project.title %></div>
+        <%= image_tag("radianceu", width: '310px', height: '180px', class: 'project-img') %>
+        <div class="description"><%= project.title %></div>
+      </li>
+     </a>
+  <% end %>
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
