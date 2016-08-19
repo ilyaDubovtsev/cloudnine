@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc3f654-bae5-4fc2-a215-36f7ecdd8922" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20160819190246_add_attachment_picture_to_projects.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/lQ/lQMI1ZOu1pX7w74Kg-uKjzznoBRrZmImVD3vRwfNRqw.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/lQ/lQMI1ZOu1pX7w74Kg-uKjzznoBRrZmImVD3vRwfNRqw.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/corp.iml" afterPath="$PROJECT_DIR$/.idea/corp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/projects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/project.rb" afterPath="$PROJECT_DIR$/app/models/project.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/index.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/show.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/pids/server.pid" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" />
     </list>
     <ignored path="corp.iws" />
@@ -701,7 +687,7 @@
       <workItem from="1471460626205" duration="3046000" />
       <workItem from="1471547019640" duration="1939000" />
       <workItem from="1471548970649" duration="230000" />
-      <workItem from="1471632472154" duration="3653000" />
+      <workItem from="1471632472154" duration="3686000" />
     </task>
     <task id="LOCAL-00001" summary="+footer added">
       <created>1471549104554</created>
@@ -710,11 +696,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471549104554</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="+paperclip projects">
+      <created>1471636151004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1471636151004</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26934000" />
+    <option name="totallyTimeSpent" value="26967000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -762,7 +755,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+footer added" />
-    <option name="LAST_COMMIT_MESSAGE" value="+footer added" />
+    <MESSAGE value="+paperclip projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="+paperclip projects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
