@@ -5,10 +5,10 @@
   <h1 class="text-center ffh">Проекты</h1>
   <ul class="row project-list">
   <% @projects.each do |project| %>
-     <a href="google.com">
+     <a href="<%= project.url%>" >
       <li class="project-box">
         <div class="title"><%= project.title %></div>
-        <%= image_tag("radianceu", width: '310px', height: '180px', class: 'project-img') %>
+        <%= image_tag(project.picture.url, width: '310px', height: '180px', class: 'project-img') %>
         <div class="description"><%= project.title %></div>
       </li>
      </a>
