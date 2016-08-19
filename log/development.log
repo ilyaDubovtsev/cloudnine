@@ -74076,3 +74076,9 @@ Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323
 
 
 Started GET "/assets/logo-fa9109a859ee9d8cd3a0491748bd145bea590c15efde1e6510e183367036aaa9.png" for 127.0.0.1 at 2016-08-20 00:05:50 +0400
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-08-20 00:06:37 +0400
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms)
